@@ -1,6 +1,6 @@
 * {margin: 0;padding: 0;}
 
-body{font-family: 'Montserrat', sans-serif;}
+body {font-family: 'Montserrat', sans-serif;}
 
 #page {
     min-height: 200px;
@@ -9,11 +9,7 @@ body{font-family: 'Montserrat', sans-serif;}
     background: whitesmoke;
     margin: 50px auto;
     padding: 30px;
-    color: #27aae1;
-}
-
-.photo-and-name {
-    /* NO STYLE NEEDED YET */
+    color: black; /* Changed text color to black */
 }
 
 .photo {
@@ -31,6 +27,7 @@ body{font-family: 'Montserrat', sans-serif;}
 .name {
     margin-bottom: -5px;
 }
+
 .job-title {
     display: inline-block;
 }
@@ -45,10 +42,29 @@ body{font-family: 'Montserrat', sans-serif;}
     font-size: 15px;
 }
 
-#objective {
-    
+/* Standard section title styling */
+.section-title {
+    color: #27aae1; /* Blue color */
+    font-weight: bold;
+    border: 2px solid #27aae1;
+    padding: 5px;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 5px;
 }
 
+/* Black title for 'Education' */
+.black-title {
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 5px;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+/* Objective Section */
 #objective h3 {
     border: 1px solid #d3d3d3;
     text-transform: uppercase;
@@ -64,12 +80,14 @@ body{font-family: 'Montserrat', sans-serif;}
     color: #000;
 }
 
+/* Education Section */
 #education h3 {
-    border: 1px solid #d3d3d3;
+    border: 1px solid black;
     text-transform: uppercase;
     padding: 5px;
     border-radius: 5px;
     margin: 30px 0 10px;
+    color: black;
 }
 
 #education table td {
@@ -78,16 +96,27 @@ body{font-family: 'Montserrat', sans-serif;}
     color: #000;
 }
 
-#education table tr.school-1 td:first-child {
-    width: 120px;
-    color: gray;
-    padding-bottom: 25px;
+/* Experience Section */
+#experience h3, 
+#entrepreneurial h3, 
+#certifications h3, 
+#languages h3 {
+    color: #27aae1; /* Blue color */
+    font-weight: bold;
+    border: 2px solid #27aae1;
+    padding: 5px;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 5px;
 }
 
-#education table tr.school-2 td:first-child {
-    padding-bottom: 25px;
+#experience table td {
+    padding: 5px;
+    font-size: 14px;
+    color: #000;
 }
 
+/* Work Section */
 #work h3 {
     border: 1px solid #d3d3d3;
     text-transform: uppercase;
@@ -102,21 +131,7 @@ body{font-family: 'Montserrat', sans-serif;}
     color: #000;
 }
 
-#work table tr.work-1 td:first-child {
-    width: 120px;
-    color: gray;
-    padding-bottom: 25px;
-}
-
-#work table tr.work-1 td {
-    padding-bottom: 25px;
-}
-
-#work table tr.work-2 td:first-child {
-    width: 120px;
-    color: gray;
-}
-
+/* Bio-Data Section */
 #bio-data h3 {
     border: 1px solid #d3d3d3;
     text-transform: uppercase;
