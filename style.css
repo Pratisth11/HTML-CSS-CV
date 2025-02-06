@@ -9,9 +9,10 @@ body {font-family: 'Montserrat', sans-serif;}
     background: whitesmoke;
     margin: 50px auto;
     padding: 30px;
-    color: black; /* Changed text color to black */
+    color: black; /* Ensure text is black by default */
 }
 
+/* Profile Picture */
 .photo {
     width: 15%;
     min-width: 130px;
@@ -44,13 +45,15 @@ body {font-family: 'Montserrat', sans-serif;}
 
 /* Standard section title styling */
 .section-title {
-    color: #27aae1; /* Blue color */
+    color: #27aae1; /* Blue */
     font-weight: bold;
     border: 2px solid #27aae1;
     padding: 5px;
-    display: inline-block;
+    display: block;
+    width: fit-content;
     text-transform: uppercase;
     border-radius: 5px;
+    background: white;
 }
 
 /* Black title for 'Education' */
@@ -59,9 +62,11 @@ body {font-family: 'Montserrat', sans-serif;}
     font-weight: bold;
     border: 2px solid black;
     padding: 5px;
-    display: inline-block;
+    display: block;
+    width: fit-content;
     text-transform: uppercase;
     border-radius: 5px;
+    background: white;
 }
 
 /* Objective Section */
@@ -82,12 +87,14 @@ body {font-family: 'Montserrat', sans-serif;}
 
 /* Education Section */
 #education h3 {
-    border: 1px solid black;
+    border: 2px solid black;
     text-transform: uppercase;
     padding: 5px;
     border-radius: 5px;
     margin: 30px 0 10px;
     color: black;
+    display: inline-block;
+    background: white;
 }
 
 #education table td {
@@ -101,19 +108,20 @@ body {font-family: 'Montserrat', sans-serif;}
 #entrepreneurial h3, 
 #certifications h3, 
 #languages h3 {
-    color: #27aae1; /* Blue color */
+    color: #27aae1; /* Blue */
     font-weight: bold;
     border: 2px solid #27aae1;
     padding: 5px;
     display: inline-block;
     text-transform: uppercase;
     border-radius: 5px;
+    background: white;
 }
 
 #experience table td {
     padding: 5px;
     font-size: 14px;
-    color: #000;
+    color: black; /* Ensure black text */
 }
 
 /* Work Section */
@@ -128,7 +136,7 @@ body {font-family: 'Montserrat', sans-serif;}
 #work table td {
     padding: 5px;
     font-size: 14px;
-    color: #000;
+    color: black;
 }
 
 /* Bio-Data Section */
@@ -143,7 +151,7 @@ body {font-family: 'Montserrat', sans-serif;}
 #bio-data table td {
     padding: 8px;
     font-size: 15px;
-    color: #000;
+    color: black;
 }
 
 #bio-data table tr td:first-child {
