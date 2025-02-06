@@ -1,6 +1,11 @@
-* {margin: 0;padding: 0;}
+* {
+    margin: 0;
+    padding: 0;
+}
 
-body {font-family: 'Montserrat', sans-serif;}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 
 #page {
     min-height: 200px;
@@ -9,88 +14,61 @@ body {font-family: 'Montserrat', sans-serif;}
     background: whitesmoke;
     margin: 50px auto;
     padding: 30px;
-    color: black; /* Ensure all text is black */
-}
-
-/* Profile Picture and Contact Info */
-.photo-and-name {
-    display: flex;
-    align-items: center;
-    gap: 20px; /* Creates spacing between image and text */
+    color: black;
 }
 
 .photo {
     width: 15%;
     min-width: 130px;
+    float: left;
+    margin-right: 20px;
 }
 
 .contact-info-box {
     width: 70%;
+    display: inline-block;
 }
 
-/* Objective Section - Now Below Image */
-#objective {
-    margin-top: 40px; /* Creates space below the image */
+.name {
+    margin-bottom: -5px;
 }
 
-#objective h3 {
+.contact-details {
+    background: #27aae1;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.blue-header {
     color: #27aae1;
-    font-weight: bold;
-    border: 2px solid #27aae1;
-    padding: 5px;
-    display: inline-block;
     text-transform: uppercase;
+    padding: 5px;
     border-radius: 5px;
-    background: white;
+    margin: 30px 0 10px;
 }
 
-#objective p {
-    padding: 10px 5px;
-    line-height: 25px;
-    font-size: 14px;
-}
-
-/* Education Section */
-#education h3 {
+.section-header {
     color: #27aae1;
-    font-weight: bold;
-    border: 2px solid #27aae1;
-    padding: 5px;
-    display: inline-block;
     text-transform: uppercase;
-    border-radius: 5px;
-    background: white;
-}
-
-#education table td {
-    padding: 5px;
-    font-size: 14px;
-}
-
-/* General Section Title (for spacing & design) */
-.section-title {
-    color: #27aae1; 
-    font-weight: bold;
+    padding: 8px;
     border: 2px solid #27aae1;
-    padding: 5px;
     display: inline-block;
-    text-transform: uppercase;
     border-radius: 5px;
-    background: white;
-    margin-top: 25px; /* Space before the section */
+    margin: 30px 0 15px;
 }
 
-/* Work Section */
-#work table td {
-    padding: 5px;
+#objective p, #education table td, #work table td {
+    padding: 8px;
     font-size: 14px;
+    color: black;
 }
 
-/* Adds spacing for Entrepreneurial, Certifications, and Languages */
 #entrepreneurial, #certifications, #languages {
-    margin-top: 30px; /* Space before section */
+    margin-top: 30px;
 }
 
-#entrepreneurial h3, #certifications h3, #languages h3 {
-    margin-bottom: 15px; /* Space after header */
+#entrepreneurial table td, #certifications p, #languages p {
+    padding-left: 20px;
 }
