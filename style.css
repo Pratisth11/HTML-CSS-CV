@@ -98,55 +98,30 @@ body {
     padding-bottom: 25px;
 }
 
-/* Work Experience */
-#work h3 {
-    color: #27aae1; /* Make Work Experience header blue */
-    border: 1px solid #27aae1;
+/* Relevant Experience Section */
+#experience {
+    margin-top: 50px; /* Added space above Relevant Experience */
+}
+
+#experience h3 {
+    color: #27aae1; /* Make Relevant Experience header blue */
+    border: 2px solid #27aae1;
     text-transform: uppercase;
     padding: 5px;
     border-radius: 5px;
     margin: 30px 0 10px;
 }
 
-#work table td {
+#experience table td {
     padding: 5px;
     font-size: 14px;
     color: #000;
 }
 
-#work table tr.work-1 td:first-child {
+#experience table tr td:first-child {
     width: 120px;
     color: gray;
     padding-bottom: 25px;
-}
-
-#work table tr.work-1 td {
-    padding-bottom: 25px;
-}
-
-#work table tr.work-2 td:first-child {
-    width: 120px;
-    color: gray;
-}
-
-/* Entrepreneurial Experience */
-#entrepreneurial h3 {
-    color: #27aae1;
-    border: 2px solid #27aae1;
-    text-transform: uppercase;
-    padding: 5px;
-    border-radius: 5px;
-    margin: 50px 0 20px; /* Increased margin to add space */
-}
-
-#entrepreneurial table td {
-    padding: 5px;
-    font-size: 14px;
-    color: #000;
-}
-
-#entrepreneurial p {
-    padding-left: 150px; /* Moves "Global Entrepreneurship Bootcamp" to the right */
 }
 
 /* Certifications */
@@ -173,6 +148,6 @@ body {
     margin: 50px 0 20px; /* Increased space */
 }
 
-#languages p {
+#languages ul {
     padding-left: 150px; /* Moves text to the right */
 }
