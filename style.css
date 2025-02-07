@@ -14,18 +14,22 @@ body {
     background: whitesmoke;
     margin: 50px auto;
     padding: 30px;
-    color: black;
+    color: black; /* Changed text color to black */
+}
+
+.photo-and-name {
+    display: flex;
+    align-items: center;
 }
 
 .photo {
     width: 15%;
     min-width: 130px;
-    float: left;
     margin-right: 20px;
 }
 
 .contact-info-box {
-    width: 70%;
+    width: 70.9%;
     display: inline-block;
 }
 
@@ -33,42 +37,142 @@ body {
     margin-bottom: -5px;
 }
 
+.job-title {
+    display: inline-block;
+}
+
 .contact-details {
     background: #27aae1;
     color: white;
     text-align: center;
+    margin: auto;
+    margin-top: 25px;
     padding: 5px;
     font-size: 15px;
 }
 
-.blue-header {
+/* Objective Section */
+#objective {
+    margin-top: 40px; /* Increased space to move Objective down */
+}
+
+#objective h3 {
     color: #27aae1;
+    border: 1px solid #d3d3d3;
     text-transform: uppercase;
     padding: 5px;
     border-radius: 5px;
     margin: 30px 0 10px;
 }
 
-.section-header {
-    color: #27aae1;
-    text-transform: uppercase;
-    padding: 8px;
-    border: 2px solid #27aae1;
-    display: inline-block;
-    border-radius: 5px;
-    margin: 30px 0 15px;
-}
-
-#objective p, #education table td, #work table td {
-    padding: 8px;
+#objective p {
+    padding: 0 5px;
+    line-height: 25px;
     font-size: 14px;
-    color: black;
+    color: #000;
 }
 
-#entrepreneurial, #certifications, #languages {
-    margin-top: 30px;
+/* Education Section */
+#education h3 {
+    color: #27aae1; /* Changed header to blue */
+    border: 1px solid #d3d3d3;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 30px 0 10px;
 }
 
-#entrepreneurial table td, #certifications p, #languages p {
-    padding-left: 20px;
+#education table td {
+    padding: 5px;
+    font-size: 14px;
+    color: #000;
+}
+
+#education table tr.school-1 td:first-child {
+    width: 120px;
+    color: gray;
+    padding-bottom: 25px;
+}
+
+#education table tr.school-2 td:first-child {
+    padding-bottom: 25px;
+}
+
+/* Work Experience */
+#work h3 {
+    color: #27aae1; /* Make Work Experience header blue */
+    border: 1px solid #27aae1;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 30px 0 10px;
+}
+
+#work table td {
+    padding: 5px;
+    font-size: 14px;
+    color: #000;
+}
+
+#work table tr.work-1 td:first-child {
+    width: 120px;
+    color: gray;
+    padding-bottom: 25px;
+}
+
+#work table tr.work-1 td {
+    padding-bottom: 25px;
+}
+
+#work table tr.work-2 td:first-child {
+    width: 120px;
+    color: gray;
+}
+
+/* Entrepreneurial Experience */
+#entrepreneurial h3 {
+    color: #27aae1;
+    border: 2px solid #27aae1;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 50px 0 20px; /* Increased margin to add space */
+}
+
+#entrepreneurial table td {
+    padding: 5px;
+    font-size: 14px;
+    color: #000;
+}
+
+#entrepreneurial p {
+    padding-left: 150px; /* Moves "Global Entrepreneurship Bootcamp" to the right */
+}
+
+/* Certifications */
+#certifications h3 {
+    color: #27aae1;
+    border: 2px solid #27aae1;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 50px 0 20px; /* Increased space */
+}
+
+#certifications ul {
+    padding-left: 150px; /* Moves "META Marketing Analytics" right */
+}
+
+/* Languages */
+#languages h3 {
+    color: #27aae1;
+    border: 2px solid #27aae1;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 50px 0 20px; /* Increased space */
+}
+
+#languages p {
+    padding-left: 150px; /* Moves text to the right */
 }
